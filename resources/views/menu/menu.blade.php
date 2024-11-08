@@ -15,7 +15,7 @@
                                         href="home-travel.html">Home</a>
 
                                 </li>
-                                <li><a href="about.html">Sobre</a></li>
+                                <li><a href="{{route('sobre.sobre')}}">Sobre</a></li>
 
                                 <li class="menu-item-has-children"><a href="#">Roteiros</a>
                                     <ul class="sub-menu">
@@ -26,7 +26,7 @@
                                 </li>
                                 <li><a href="contact.html">Galeria</a></li>
                                 <li><a href="contact.html">Depoimentos</a></li>
-                                <li><a href="contact.html">Contato</a></li>
+                                <li><a href="{{route('contato.contato')}}">Contato</a></li>
                             </ul>
                         </nav><button type="button" class="th-menu-toggle d-block d-xl-none"><i
                                 class="far fa-bars"></i></button>
